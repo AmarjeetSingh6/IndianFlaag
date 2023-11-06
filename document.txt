@@ -1,0 +1,5 @@
+1. box
+2. gradient
+
+Rules
+1. always remove the parent height when childrens get their height 
