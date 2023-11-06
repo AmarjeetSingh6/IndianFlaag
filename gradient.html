@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndianFlag</title>
+    <style>
+        /* CSS Linear Gradients
+To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
+
+Syntax
+background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+        .a_gradient{
+            height: 800px;
+            /* border: 1px dashed red; */
+            /*background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;*/
+            background-image: url(./img/img2.png),-webkit-linear-gradient(top,orange 33%, white 33% 66%,green 66%);
+            background-size: 250px 250px,auto;
+            background-repeat: no-repeat,no-repeat;
+            background-position: center,center;
+        }
+    </style>
+</head>
+<body>
+    <div class="a_gradient"></div>
+</body>
+</html>
